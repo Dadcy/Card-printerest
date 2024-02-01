@@ -1,0 +1,111 @@
+body{background-color: rgba(173, 167, 212, 0.863);
+    height: 100%;}
+
+
+
+ #container{margin:50px auto;
+            width:450px ;
+            height:500px;
+            background-color: aliceblue;
+ }
+ .image{background-image: url(img/kobe.png);
+         width: 400px;
+         height: 480px; 
+         position:absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden; }
+      
+
+.image:hover{  transform: translate(-50%,-50%) scale(1.2);}
+
+#img1       {
+             background-color: aliceblue;
+            position:absolute;
+            bottom:-50px;
+            left:-20px;     
+            border-radius: 20px; 
+            width: 60%;
+            height: 40px;
+            border-radius: 30px; 
+            display: inline;}
+
+ .frase1{    left: 55px;
+            bottom: 18px;
+            position: relative;
+            font-size: 20px;
+            font-weight: 900;
+             max-width: 180px;         
+            text-overflow: ellipsis;
+            overflow: hidden; white-space: nowrap;       }
+.frecciaob{
+            left: 20px;
+            top: 5px;
+            position: relative  ;
+            font-size: 20px;}
+
+#img2{ background-color: aliceblue;
+       position:absolute;
+       bottom:-50px;
+       right:80px;
+       height: 40px;
+       width: 40px;   
+       border-radius: 30px;
+          }
+#img2 div{position: relative;    
+          top: 10px; 
+          left: 12px;   
+          font-size: 20px;   
+          font-weight: 900; }
+
+
+
+
+#img3{ background-color: aliceblue;
+       position:absolute;
+       bottom:-50px;
+       right: -15px;
+       height: 40px;
+       width: 40px;   
+      border-radius: 30px;
+              }
+#img3 div{ font-size: 40px;
+font-weight: 900;
+position: relative;
+left:6px;
+bottom: 13px;}
+
+            
+           
+            
+            
+#save      {background-color: red;
+            position:absolute;
+            top:-70px;
+            right:-20px;
+            width: 80px;
+            height: 50px;
+            border-radius: 40px;}
+     
+#save span{ padding-left: 20px;
+            padding-top:15px;
+            display: block;
+           font-weight: bold;}
+.image:hover #img1{ bottom: 10px;
+                    left: 10px;
+}
+.image:hover #img2{ bottom: 10px;
+                     right: 80px;
+}
+.image:hover #img3{ bottom: 10px;
+                    right: 25px;
+}
+.image:hover #save{ top: 20px;
+right: 40px;}            
+    
+            
+            
