@@ -18,13 +18,12 @@ body{background-color: rgba(173, 167, 212, 0.863);
         border-radius: 20px;
         background-size: cover;
         background-position: center;
-        overflow: hidden; }
+        overflow: hidden;
+        }
       
 
-.image:hover{  transform: translate(-50%,-50%) scale(1.2);}
-
-#img1       {
-             background-color: aliceblue;
+.image:hover{ opacity: 0.5;}
+#img1       {  background-color: aliceblue;
             position:absolute;
             bottom:-50px;
             left:-20px;     
